@@ -1,0 +1,3 @@
+https://developer.riotgames.com/docs/lol
+
+https://developer.riotgames.com/app/575569/apis
