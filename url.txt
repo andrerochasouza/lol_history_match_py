@@ -1,0 +1,5 @@
+Documentação da API -> https://developer.riotgames.com/docs/lol
+
+Obtendo o token de acesso a API -> https://developer.riotgames.com/app/575569/apis
+
+Iniciar o Env -> env_py\Scripts\activate.bat
