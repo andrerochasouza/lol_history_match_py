@@ -1,0 +1,1 @@
+["/tft/summoner/v1/summoners/by-account/{encryptedAccountId}", "/tft/summoner/v1/summoners/by-name/{summonerName}", "/tft/summoner/v1/summoners/by-puuid/{encryptedPUUID}", "/tft/summoner/v1/summoners/me", "/tft/summoner/v1/summoners/{encryptedSummonerId}"]

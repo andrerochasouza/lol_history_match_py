@@ -1,0 +1,1 @@
+["/lol/summoner/v4/summoners/by-account/{encryptedAccountId}", "/lol/summoner/v4/summoners/by-name/{summonerName}", "/lol/summoner/v4/summoners/by-puuid/{encryptedPUUID}", "/lol/summoner/v4/summoners/me", "/lol/summoner/v4/summoners/{encryptedSummonerId}"]
