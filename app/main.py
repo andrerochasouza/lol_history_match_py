@@ -1,5 +1,4 @@
 from controllers.summoner_lol import Summoner
-from utils.enum_endpoints import endpoints
 from utils.enum_region import region
 import pathlib as Path
 
@@ -12,7 +11,8 @@ def get_access_token():
 
 token_access = get_access_token() # Token de acesso -> https://developer.riotgames.com/
 
-sommoner = Summoner("dede cereja") # Cria um objeto Summoner com o nickname existente
-
-print(sommoner.get_summoner_by_name(token_access, region.HTTP_BR1))
-print(sommoner.get_elo_ranking_summoner(token_access, region.HTTP_BR1))
+summoner = Summoner()
+response = summoner.get_response_summoner_by_name(token_access, region.HTTP_BR1, "////")
+print(response)
+summoner.set_values_account_summoner(response)
+print(summoner.get_elo_ranking_summoner(token_access, region.HTTP_BR1))
