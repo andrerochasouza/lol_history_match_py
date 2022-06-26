@@ -1,1 +1,0 @@
-["/riot/account/v1/accounts/by-puuid/{puuid}", "/riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}", "/riot/account/v1/accounts/me", "/riot/account/v1/active-shards/by-game/{game}/by-puuid/{puuid}"]
