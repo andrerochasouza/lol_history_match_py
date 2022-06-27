@@ -12,7 +12,5 @@ def get_access_token():
 token_access = get_access_token() # Token de acesso -> https://developer.riotgames.com/
 
 summoner = Summoner()
-response = summoner.get_response_summoner_by_name(token_access, region.HTTP_BR1, "////")
+response = summoner.get_response_summoner_by_name(token_access, region.HTTP_BR1, "///////")
 print(response)
-summoner.set_values_account_summoner(response)
-print(summoner.get_elo_ranking_summoner(token_access, region.HTTP_BR1))
