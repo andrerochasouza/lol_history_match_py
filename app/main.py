@@ -1,6 +1,6 @@
 import controllers.summoner_controller as sc
 from model.summoner import Summoner 
-from utils.enum_region import region
+from utils.enums import region
 from utils.access_token import get_access_token as get_token
 
 

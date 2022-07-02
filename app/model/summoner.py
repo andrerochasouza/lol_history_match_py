@@ -14,7 +14,10 @@ class Summoner:
         self.id
         self.puu_id
         self.summoner_level
-
     
+
+    def __str__(self):
+        # diminuir a quantidade caracteres
+        return f"{self.name} - {self.account_id[:5]} - {self.id[:5]} - {self.puu_id[:5]} - {self.summoner_level}"    
 
 

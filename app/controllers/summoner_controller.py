@@ -1,4 +1,4 @@
-from utils.enum_endpoints import endpoints
+from utils.enums import endpoints
 from urllib.parse import quote
 import requests as res
 
@@ -10,6 +10,10 @@ def get_summoner_by_name(token_access, region, name):
 
 def get_elo_by_id(token_access, region, summoner_id):
     url_format = __create_url(region, endpoints.ELO_SOMMONER_BY_SUMMONER_ID, summoner_id)
+    return __get_response_by_token_url(token_access, url_format)
+
+def get_list_champion_by_id(token_access, region, summoner_id):
+    url_format = __create_url(region, endpoints.CHAMPIONS_BY_SUMMONER_ID, summoner_id)
     return __get_response_by_token_url(token_access, url_format)
 
 
