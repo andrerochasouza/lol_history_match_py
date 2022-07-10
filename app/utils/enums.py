@@ -1,12 +1,18 @@
 from enum import Enum
 
 class endpoints(Enum):
+    """
+    Endpoints para requisições.
+    """
 
-    SUMMONER_BY_NAME = "/lol/summoner/v4/summoners/by-name/{}"
-    ELO_SOMMONER_BY_SUMMONER_ID = "/lol/league/v4/entries/by-summoner/{}"
-    CHAMPIONS_BY_SUMMONER_ID = "/lol/champion-mastery/v4/champion-masteries/by-summoner/{}"
+    SUMMONER_BY_NAME = "/lol/summoner/v4/summoners/by-name/"
+    ELO_SOMMONER_BY_SUMMONER_ID = "/lol/league/v4/entries/by-summoner/"
+    CHAMPIONS_BY_SUMMONER_ID = "/lol/champion-mastery/v4/champion-masteries/by-summoner/"
 
 class region(Enum):
+    """
+    URLs de regiões para requisições.
+    """
     
     HTTP_BR1 = "https://br1.api.riotgames.com"
     HTTP_EUNE = "https://eune.api.riotgames.com"
